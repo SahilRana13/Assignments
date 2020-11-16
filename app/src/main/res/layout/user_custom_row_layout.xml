@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/MovieTitle"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:text="Movie Title"
+        android:textSize="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#aabbaa"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/MovieRating"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:text="Ratings"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="80dp"
+        android:background="#aabbaa"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/MovieDescription"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:text="Description"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="140dp"
+        android:background="#aabbaa"
+        android:gravity="center"
+        />
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="170dp"
+        android:background="#aabbaa"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="250dp"
+        />
+
+</RelativeLayout>
