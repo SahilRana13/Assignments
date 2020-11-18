@@ -43,6 +43,7 @@
         />
 
     <ImageView
+        android:id="@+id/MovieImage"
         android:layout_width="140dp"
         android:layout_height="170dp"
         android:background="#aabbaa"
